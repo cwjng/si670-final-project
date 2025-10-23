@@ -49,32 +49,6 @@ The dataset can be used for exploratory data analysis, statistical modeling, and
 
 ---
 
-## Suggested Analyses
-
-* Examine correlations between socioeconomic indicators and cancer mortality rates.
-* Assess regional and demographic disparities in cancer mortality.
-* Develop predictive models to identify key factors influencing cancer mortality.
-* Visualize variations in health coverage, poverty, or education levels across regions.
-
----
-
-## Example Usage (Python)
-
-```python
-import pandas as pd
-
-# Load data
-df = pd.read_csv("cancer_mortality.csv")
-
-# Preview dataset
-print(df.head())
-
-# Explore correlations
-print(df[['cmRate', 'medianIncome', 'pctPoverty']].corr())
-```
-
----
-
 ## Sources
 
 * American Community Survey ([census.gov](https://www.census.gov))
